@@ -29,7 +29,6 @@ contract BoredPetsNFT is ERC721URIStorage {
   
   /**
    * marketplace 컨트랙트는 승인받은 사람이 NFT의 소유권 이전을 위해 여러 계정에 접근할 권한이 필요함
-   * 따라서 setApprovalForAll이 필요
    */
     emit NFTMinted(newTokenId);
   }
